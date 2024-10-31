@@ -24,6 +24,17 @@ namespace scripts
                     toast.Show();
                 }
             }
+            else
+            {
+                ToastContentBuilder toast = new ToastContentBuilder();
+                //toast.AddArgument("x1");
+                toast.AddText(" Nenhuma atualização encontrada.");
+                toast.AddHeader("t1", "Atualização do dicionário de dados", new ToastArguments());
+                toast.SetProtocolActivation(new Uri("about: blank"));
+                toast.SetToastScenario(ToastScenario.Reminder);
+                toast.SetToastDuration(ToastDuration.Short);
+                toast.Show();
+            }
         }
     }
 }
