@@ -8,7 +8,7 @@ class m
     public static void Main(string[] args)
     {
         List<string> list = new c.Conn().connect();
-        new scripts.toast().teste(list);  
+        new scripts.toast().buildToast(list);  
     }
 }
 

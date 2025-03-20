@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 
-namespace c
-{
+namespace c{
     public class Conn
     {
         public List<string> connect()
@@ -28,14 +27,9 @@ namespace c
                             catch (Exception ex) { }
                             
                     }
-
                 }
-
-
             }
-
             return aRet;
-        }
-   
+        }   
     }
 }

@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teste3", "teste3.csproj", "{760C89CC-FA92-40C2-A745-0F89AFCDDA15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toastSX3", "toastSX3.csproj", "{760C89CC-FA92-40C2-A745-0F89AFCDDA15}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{379C541B-CBF7-4FFC-89D6-51F8DC79463F}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "toastSX3Setup", "..\toastSX3Setup\toastSX3Setup.vdproj", "{0533B692-EB6D-43FF-AEFD-7E4B9D366925}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "toastSetup", "..\toastSetup\toastSetup.vdproj", "{042B7E9A-8F57-4FAF-B8B5-730073180E74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +19,11 @@ Global
 		{760C89CC-FA92-40C2-A745-0F89AFCDDA15}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{760C89CC-FA92-40C2-A745-0F89AFCDDA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{760C89CC-FA92-40C2-A745-0F89AFCDDA15}.Release|Any CPU.Build.0 = Release|Any CPU
-		{379C541B-CBF7-4FFC-89D6-51F8DC79463F}.Debug|Any CPU.ActiveCfg = Debug
-		{379C541B-CBF7-4FFC-89D6-51F8DC79463F}.Release|Any CPU.ActiveCfg = Release
-		{379C541B-CBF7-4FFC-89D6-51F8DC79463F}.Release|Any CPU.Build.0 = Release
+		{0533B692-EB6D-43FF-AEFD-7E4B9D366925}.Debug|Any CPU.ActiveCfg = Debug
+		{0533B692-EB6D-43FF-AEFD-7E4B9D366925}.Release|Any CPU.ActiveCfg = Release
+		{0533B692-EB6D-43FF-AEFD-7E4B9D366925}.Release|Any CPU.Build.0 = Release
+		{042B7E9A-8F57-4FAF-B8B5-730073180E74}.Debug|Any CPU.ActiveCfg = Debug
+		{042B7E9A-8F57-4FAF-B8B5-730073180E74}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

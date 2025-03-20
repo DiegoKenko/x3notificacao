@@ -7,7 +7,7 @@ namespace scripts
 {
      public class toast
     {
-        public void teste(List<string> text)
+        public void buildToast(List<string> text)
         {
             ToastNotificationManagerCompat.History.Clear();
             if (text.Count > 0)
